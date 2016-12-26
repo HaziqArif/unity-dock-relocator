@@ -1,9 +1,9 @@
+//Copyright M. A. Haziq
+//Only applies to this program. Commands provided by the 
+//original contributors around the internet are not bounded
+//by this copyright
 //
-//
-//
-//
-//
-//
+//Use with care
 
 #include <iostream>
 using namespace std;
@@ -27,11 +27,11 @@ public:
         while(post=='l' || post=='b'){
             switch(post){
                 case 'l':
-                    state=1;
+                    state=0;
                     return system("gsettings set com.canonical.Unity.Launcher launcher-position Left ");
                     break;
                 case 'b':
-                    state=1;
+                    state=0;
                     return system("gsettings set com.canonical.Unity.Launcher launcher-position Bottom ");
                     break;
                 default:
@@ -53,7 +53,7 @@ int main(){
     fnState=position.location(dockPosition);
     cout<<"Returned with "<<fnState<<endl;
     if (fnState==-1) cout<<"Aborted"<<endl;
-    if (fnState==1) cout<<"Success"<<endl;
+    if (fnState==0) cout<<"Success"<<endl;
     return 0;
 }
 
