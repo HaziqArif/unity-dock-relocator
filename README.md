@@ -11,4 +11,4 @@ The program does not take arguments and prompts the user within the application.
 
 The CLI uses `system()` function which some people consider it dangeous. Hence, do not use this application and instead copy the command line within that function.
 
-Credits to those who discover the original command. This application only shortens the typing process, and this approach also possible through shell script, but I lack the proper scripting skill. 
+Credits to those who discover the original command. This application only shortens the typing process, and this approach is also possible through shell script, but I am not familiar with shell scripting. 
