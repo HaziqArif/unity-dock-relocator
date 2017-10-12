@@ -2,7 +2,7 @@
 C++ based CLI Unity launcher relocation. ~~Until I have proper shell script writing skill...~~ Looks like I managed to get a little amount of time to learn Bash script a bit! Here you go!
 # How-tos 
 ## For Bash script version
-After cloning, just run the script by `./relocate-dock [option]`
+After cloning, just run the script by `./relocate-dock.sh [option]`
 
 Options available are `-l` for left, `-b` for bottom
 
