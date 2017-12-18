@@ -14,7 +14,7 @@ Compile using `g++ dock-relocator.cpp -o yourexename`
 Run by `./yourexename` 
 
 # Why are you doing this?
-Too lazy to download Unity Tweak Tool. I just want to move the Unity Dock to the bottom of the screen. Well, maybe resizing the Dock but it's doable in Unity Settings...
+Too lazy lol noob sdkkk to download Unity Tweak Tool. I just want to move the Unity Dock to the bottom of the screen. Well, maybe resizing the Dock but it's doable in Unity Settings...
 
 # Anything else?
 The (C++) program does not take arguments and prompts the user within the application. Valid input is left or bottom (case insensitive) or their initials (l or b).
